@@ -1,0 +1,51 @@
+/* General Styles */
+.reviews-container {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .reviews-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .review-item {
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-footer {
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-subtitle {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .card-footer .rating {
+    font-size: 1.5rem;
+    color: #f1c40f;
+  }
+  

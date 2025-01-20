@@ -2,14 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Config from './Routing/Config';
-import Check from './Components/Check/Check';
+import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Config/>
-    {/* <Check /> */}
+    <App/>
   </React.StrictMode>
 );
 
