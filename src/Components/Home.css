@@ -7,14 +7,15 @@ body {
 
 /* Hero Section */
 .hero-section {
-    position: relative;
-    background: linear-gradient(135deg, #ff6a00, #ee0979, #7a00ff); /* Matching Navbar Gradient */
-    color: white;
-    padding: 100px 0;
-    overflow: hidden;
+    background-image: url('../Images//fries6.png'); /* Replace with the actual image path */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    text-align: center;
 }
 
 .hero-title {
+    color: #fffbfb;
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 20px;
@@ -22,11 +23,15 @@ body {
 }
 
 .hero-title .highlight {
-    color: #fce302; /* Bright Yellow for Emphasis */
+    border: seagreen;
+    border-radius: 10%;
+    color:rgb(0, 0, 0); /* Bright Yellow for Emphasis */
+    background-color: skyblue;
 }
 
 .hero-description {
     font-size: 1.2rem;
+    font-weight: bolder;
     margin-bottom: 30px;
     animation: fadeIn 2s ease-in-out;
 }
@@ -44,10 +49,12 @@ body {
 }
 
 .hero-img {
-    width: 100%;
+    width: 80%;
     max-width: 400px;
     animation: slideInRight 1.5s ease-in-out;
+    margin-left: 25%; /* Moves the image to the right by 25% of its parent's width */
 }
+
 
 .hero-overlay {
     position: absolute;
@@ -55,7 +62,6 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.3);
 }
 
 /* Featured Items Section */
@@ -89,11 +95,15 @@ body {
 
 /* Call to Action Section */
 .cta-section {
-    background: linear-gradient(135deg, #ff6a00, #7a00ff); /* Similar Gradient to Navbar */
+    background-image: url('../Images//pizza2.png'); /* Replace with the actual image path */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
     color: white;
     text-align: center;
     padding: 60px 0;
 }
+
 
 .cta-title {
     font-size: 2.5rem;

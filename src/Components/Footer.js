@@ -31,8 +31,8 @@ const Footer = () => {
           {/* Contact Section */}
           <Col md={4} className="footer-section">
             <h5>Contact Us</h5>
-            <p><strong>Address:</strong> 123 Drizzles Avenue, Food City, 12345</p>
-            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Address:</strong> Daily Market, Neyveli Township</p>
+            <p><strong>Phone:</strong> 8220775520 </p>
             <p><strong>Email:</strong> <a href="mailto:contact@drizzles.com">contact@drizzles.com</a></p>
 
             {/* Social Media Links */}
